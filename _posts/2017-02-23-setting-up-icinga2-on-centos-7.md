@@ -1,12 +1,9 @@
 ---
-title: Setting up Icinga2 on Centos 7
-date: 2017-02-23T11:45:00+00:00
-author: Mike Tupker
 layout: post
+title:  "Setting up Icinga2 on Centos 7"
+date:	2017-02-23 11:45:00 +0000
+author: Mike Tupker
 ---
-
-{% highlight bash %}
-{% endhighlight %}
 
 Icinga2 is a very robust, almost to much, monitoring system. After trying a few others LibreNMS, Zabbix, and a few others, I decided that icinga2 was the best one to work with for my purposes.
 

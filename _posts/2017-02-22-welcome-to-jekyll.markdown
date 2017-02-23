@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-02-22 21:16:42 +0000
 categories: jekyll update
-comments: true
 ---
 Well it's been a while since I did anything with this site. To be honest my heart just wasn't in it for a while, mainly due to a stale work stituaion.
 
