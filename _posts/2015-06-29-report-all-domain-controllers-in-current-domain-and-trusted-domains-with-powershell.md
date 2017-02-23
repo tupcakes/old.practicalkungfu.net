@@ -11,11 +11,12 @@ categories:
 ---
 I recently had need to come up with a way to document large chunks of our active directory environment. i came up with the below script. It gets all direct trusts then gets domain controller information for each DC in the trusted domains.
 
-If a domain doesn&#8217;t have web services enabled or isn&#8217;t reachable, it just records the domain name with empty values.
+If a domain doesn't have web services enabled or isn&#8217;t reachable, it just records the domain name with empty values.
 
-Right now it&#8217;s gathering Domain, server name, global catalog status, IPV4 address, IPV6 address, site, OS, and service pack for all reachable DCs.
+Right now it's gathering Domain, server name, global catalog status, IPV4 address, IPV6 address, site, OS, and service pack for all reachable DCs.
 
-<pre class="lang:ps decode:true ">Import-Module ActiveDirectory
+{%highlight powershell %}
+Import-Module ActiveDirectory
 
 $report = @()
 $ADdomains = @()
@@ -49,8 +50,4 @@ foreach ($domain in $ADdomains) {
 $filename = $ENV:Userprofile + "\desktop\" + (Get-ADDomain).DNSRoot + ".csv"
 
 $report | Export-Csv -NoTypeInformation $filename
-</pre>
-
-&nbsp;
-
-&nbsp;
+{% endhighlight %}
