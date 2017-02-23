@@ -15,7 +15,7 @@ If a domain doesn't have web services enabled or isn&#8217;t reachable, it just 
 
 Right now it's gathering Domain, server name, global catalog status, IPV4 address, IPV6 address, site, OS, and service pack for all reachable DCs.
 
-{%highlight powershell %}
+{% highlight powershell %}
 Import-Module ActiveDirectory
 
 $report = @()
