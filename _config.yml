@@ -20,6 +20,10 @@ description: > # this means to ignore newlines until "baseurl:"
   solving method.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://practicalkungfu.net" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/Chicago
+permalink: /:year/:month/:day/:title.html
+
+
 twitter_username: mtupker
 github_username:  tupcakes
 
@@ -31,8 +35,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-#permalink: /:year/:month/:day/:title.html
 
 #disqus comments
 disqus:
