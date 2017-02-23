@@ -32,8 +32,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-permalink: /:year/:month/:day/:title.html
+#permalink: /:year/:month/:day/:title.html
 
 #disqus comments
 disqus:
   shortname: practicalkungfu-net
+
