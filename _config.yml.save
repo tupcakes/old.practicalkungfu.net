@@ -33,7 +33,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-sitemap
-exclude:
+	exclude:
   - Gemfile
   - Gemfile.lock
 
@@ -41,5 +41,16 @@ exclude:
 disqus:
   shortname: practicalkungfu-net
 
-# Google services
-google_analytics: UA-2619100-12
+#archives
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
