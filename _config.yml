@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Troubleshooting things by poking them with a stick is a valid problem
   solving method.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://practicalkungfu.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.practicalkungfu.net" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Chicago
 permalink: /:year/:month/:day/:title.html
 
